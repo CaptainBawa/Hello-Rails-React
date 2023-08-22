@@ -35,4 +35,5 @@ const greetingsSlice = createSlice({
   },
 });
 
+export const { setGreeting } = greetingsSlice.actions;
 export default greetingsSlice.reducer;
